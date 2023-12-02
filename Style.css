@@ -1,0 +1,106 @@
+:root{
+    --sblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --vdbluembg: hsl(217, 54%, 11%);
+    --cdbluecbg: hsl(216, 50%, 16%);
+    --vdbluel: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+main{
+    justify-content: center;
+    text-align: justify;
+    border-radius: 5%;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--cdbluecbg);
+    width: auto;
+    padding-top: 2rem;
+}
+body{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 18px;
+    background-color: var(--vdbluembg);
+    margin: auto;
+}
+
+.img2{
+    margin-inline: auto;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 25rem;
+    background-size: cover;
+    width: 25rem;
+    border-radius: 2%;
+  
+}
+.text{
+    margin-left: 2rem;
+}
+.text h2{
+    margin-left: 2rem;
+    color: var(--white);
+    
+    
+}
+.text p{
+    text-align: left;
+    margin-left: 3rem;
+    color: var(--sblue);
+}
+.diamantele{
+    display: flex;
+    flex-direction: row;
+}
+
+.text h4{
+    padding-left: 2rem;
+    color: var(--cyan);
+    text-align: left;
+}
+.avatar {
+    border-radius: 5%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--cdbluecbg);
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: none;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.2rem;
+    
+}
+.avatar p{
+    color: var(--sblue);
+}
+.avatar span{
+    color: var(--white);
+}
+
+div .time{
+    display: flex;
+    flex-direction: row;
+}
+.dosimg{
+    display: flex;
+    flex-direction: row;
+}
+.scale{
+    scale: 0.3;
+}
